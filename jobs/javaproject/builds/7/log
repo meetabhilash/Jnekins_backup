@@ -1,0 +1,67 @@
+Started by GitHub push by meetabhilash
+Running as SYSTEM
+Building remotely on [8mha:////4JsHNkRlA5nrUP8Vs7NIpSqkAcUWUX2pqEfdQPcxH/zIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO00Aj8eKN8QAAAA=[0mnode4 in workspace /home/ec2-user/workspace/javaproject
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /home/ec2-user/workspace/javaproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/meetabhilash/javaproject.git # timeout=10
+Fetching upstream changes from https://github.com/meetabhilash/javaproject.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/meetabhilash/javaproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 40ed9f0fa7ec579e0915cad7b27561de8392c5ae (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 40ed9f0fa7ec579e0915cad7b27561de8392c5ae # timeout=10
+Commit message: "Update Application.java"
+ > /usr/bin/git rev-list --no-walk 70f04681075bafd426d3a4f915afe04241952c16 # timeout=10
+[javaproject] $ /bin/bash /tmp/jenkins7617951273653462452.sh
+/tmp/jenkins7617951273653462452.sh: line 3: cd: /home/ec2-user/javaproject/: No such file or directory
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< sample.program:simple-app >----------------------
+[INFO] Building simple-app 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/ec2-user/workspace/javaproject/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-app ---
+[INFO] Surefire report directory: /home/ec2-user/workspace/javaproject/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running program.sample.controller.ApplicationTest
+Multiplication of 10,20 is: 200
+Addition of 10,20 is: 30
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ simple-app ---
+[INFO] Building jar: /home/ec2-user/workspace/javaproject/target/simple-app-1.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.736 s
+[INFO] Finished at: 2022-02-27T14:33:52Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

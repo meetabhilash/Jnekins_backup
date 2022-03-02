@@ -1,0 +1,22 @@
+Started by user [8mha:////4DedyUxqxdhxmt/KjM/DP8ygM0ICR00WXUb4TMp/IP3KAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYu/dLi1CL9xKSMTADbVaqevwAAAA==[0mAbhilash
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/javaproject
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/meetabhilash/javaproject.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/javaproject # timeout=10
+Fetching upstream changes from https://github.com/meetabhilash/javaproject.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/meetabhilash/javaproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/meetabhilash/javaproject.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 70f04681075bafd426d3a4f915afe04241952c16 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 70f04681075bafd426d3a4f915afe04241952c16 # timeout=10
+Commit message: "second commit"
+First time build. Skipping changelog.
+Finished: SUCCESS

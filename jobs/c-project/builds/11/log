@@ -1,0 +1,45 @@
+Started by user [8mha:////4DedyUxqxdhxmt/KjM/DP8ygM0ICR00WXUb4TMp/IP3KAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYu/dLi1CL9xKSMTADbVaqevwAAAA==[0mAbhilash
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/meetabhilash/C-project.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/meetabhilash/C-project.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/meetabhilash/C-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/meetabhilash/C-project.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8b20447f802844e6eaa59454d3c7b373fba0b9ce (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+Commit message: "adding"
+ > /usr/bin/git rev-list --no-walk 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+[c-project] $ /bin/bash -x /tmp/jenkins7848073047890008604.sh
++ cd /var/lib/jenkins/workspace/c-project
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+  big();
+  ^~~
+main.c:4:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+gcc -c big.c
+big.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ big()
+ ^~~
+gcc -c fact.c
+fact.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ fact()
+ ^~~~
+gcc -o ABC.exe main.o	big.o fact.o
+Finished: SUCCESS

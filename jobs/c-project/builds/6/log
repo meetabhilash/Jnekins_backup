@@ -1,0 +1,23 @@
+Started by user [8mha:////4DedyUxqxdhxmt/KjM/DP8ygM0ICR00WXUb4TMp/IP3KAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYu/dLi1CL9xKSMTADbVaqevwAAAA==[0mAbhilash
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/meetabhilash/C-project.git # timeout=10
+Fetching upstream changes from https://github.com/meetabhilash/C-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/meetabhilash/C-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8b20447f802844e6eaa59454d3c7b373fba0b9ce (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+Commit message: "adding"
+ > git rev-list --no-walk 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins18184358483547075380.sh
++ /var/lib/jenkins/workspace/
+/tmp/jenkins18184358483547075380.sh: line 2: /var/lib/jenkins/workspace/: Is a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

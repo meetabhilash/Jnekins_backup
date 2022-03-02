@@ -1,0 +1,24 @@
+Started by user [8mha:////4DedyUxqxdhxmt/KjM/DP8ygM0ICR00WXUb4TMp/IP3KAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYu/dLi1CL9xKSMTADbVaqevwAAAA==[0mAbhilash
+Running as SYSTEM
+Building remotely on [8mha:////4LZLm/M41hZ4pPDPWcgrpnhIHotdh/rNakR0x3fslzPxAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/eSCovys1OQSP6B7DQFEc/bHzAAAAA==[0mcprojectNode1 in workspace /home/ec2-user/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /home/ec2-user/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/meetabhilash/C-project.git # timeout=10
+Fetching upstream changes from https://github.com/meetabhilash/C-project.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/meetabhilash/C-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8b20447f802844e6eaa59454d3c7b373fba0b9ce (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+Commit message: "adding"
+ > /usr/bin/git rev-list --no-walk 8b20447f802844e6eaa59454d3c7b373fba0b9ce # timeout=10
+[c-project] $ /bin/bash -x /tmp/jenkins2839148053329253844.sh
++ cd /home/ec2-user/workspace/c-project/
++ make
+/tmp/jenkins2839148053329253844.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
